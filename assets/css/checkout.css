@@ -1,0 +1,138 @@
+.checkout-product{
+    display: flex;
+}
+#section-checkout{
+    background: #e0e0e0;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.checkout-left{
+    width: 48%;
+    margin-right: 2%;
+}
+.section-head h3.section-title{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 22px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.section-head h3.section-title::before{
+    content:"";
+    width: 100px;
+    height: 2px;
+    background: red;
+    position: absolute;
+    bottom: -2px;
+}
+.section-info .form-row .form-col{
+    margin-bottom: 40px;
+    width: 47%;
+    margin-right: 30px;
+}
+.section-info .form-row .form-col:last-child{
+    margin-right: 0px;
+}
+
+.section-info .form-row .form-col label{
+    font-weight: 600;
+    display: block;
+    padding: 10px 0px;
+
+}
+.section-info .form-row .form-col label span{
+    color: red;
+    padding-right: 8px;
+}
+.section-info .form-row .form-col input{
+    border: none;
+    width: 100%;
+    padding: 7px 12px;
+    font-size: 14px;
+}
+.section-info .form-row .form-col input:focus{
+    border: 1px solid #333;
+    outline: none;
+}
+.form-row label{
+    font-weight: 600;
+    display: block;
+}
+.form-row label span{
+    padding-right: 8px;
+}
+.form-row textarea{
+    width: 100%!important;
+    height: 150px;
+    display: block;
+    border: none;
+    padding: 7px 12px;
+}
+.form-row textarea:focus{
+    border: 1px solid #333;
+    outline: none;
+}
+
+
+/* =================== END CHECKOUT LEFT ================ */
+.checkout-right{
+    width: 45%;
+    margin-left: 5%;
+}
+.section-detail table{
+    width: 100%;
+}
+.section-detail table thead tr td{
+    width: 70%;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.section-detail table thead tr td:nth-child(2) {
+    text-align: right;
+}
+
+.section-detail table tbody tr td{
+    padding: 10px 0px;
+    text-transform: capitalize;
+}
+.section-detail table tbody tr td:nth-child(2) {
+    text-align: right;
+}
+.section-detail table tbody tr td strong{
+    font-size: 13px;
+    padding-left: 40px;
+    display: inline-block;
+   
+}
+#checkout-payment-methods{
+    margin: 40px 0;
+}
+#checkout-payment-methods ul{
+    padding: 0px;
+}
+input[type=checkbox], input[type=radio] {
+    position: relative;
+    top: 1px;
+}
+#place-order{
+    margin-top: 100px;
+    text-align: center;
+}
+#place-order input{
+    padding: 10px 40px;
+    border: none;
+    background: rgb(0, 60, 255);
+    color: white;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+#place-order input:hover{
+    background: rgb(0, 17, 255);
+}

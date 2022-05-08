@@ -1,0 +1,252 @@
+
+#breadcrumb-wp{
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+}
+.breadcrumb{
+    background: none!important;
+}
+.breadcrumb a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+#sidebar-left{
+    width:23%;
+    margin-right: 2%;
+}
+#sidebar-right{
+    width:75%;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    color: #6c757d;
+    content: ">";
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    list-style: none;
+}
+#breadcrumb-wp  ul.list-item li{
+    padding: 0 5px;
+}
+#breadcrumb-wp ul.list-item li a{
+    text-decoration: none;
+    color:rgb(104, 103, 103);
+    text-transform: capitalize;
+}
+#wp-sidebar-product{
+    display: flex;
+}
+
+#wp-sidebar-product ul.list-cat-product h5{
+    background: black;
+    height: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-size: 18px;
+    color: white;
+
+}
+#wp-sidebar-product ul.list-cat-product li{
+    line-height: 40px;
+    height: 40px;
+    background: rgb(248, 245, 245);
+    list-style: none;
+    padding-left: 10px;
+    border-top: 1px solid #333;
+}
+#wp-sidebar-product ul.list-cat-product li:hover{
+    background: rgb(218, 218, 218);
+}
+#wp-sidebar-product ul.list-cat-product li:hover a{
+    color: green;
+}
+#wp-sidebar-product ul.list-cat-product li::before{
+    color:gold;
+}
+#wp-sidebar-product ul.list-cat-product li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -moz-line-clamp: 1;
+    -o-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -o-box-orient: vertical;
+    max-height: 100%;
+    overflow: hidden;
+}
+#wp-sidebar-product ul.list-cat-product li a::before{
+    content:"◆";
+    font-size: 15px;
+    padding-right: 10px;
+    color: red;
+}
+
+/* ========================== SELLING ========================== */
+
+.list-product-hightline h5.selling{
+    text-transform: uppercase;
+    background: black;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    margin: 0px;
+}
+.list-product-hightline ul {
+    background: rgb(241, 240, 240);
+}
+.list-product-hightline ul li.list-item{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    border-top: 1px solid #333;
+    padding-right: 0px;
+}
+.list-product-hightline ul li.list-item a img{
+    width: 78px;
+    height: 78px;
+}
+.list-product-hightline ul li.list-item .info-product{
+    font-size: 13px;
+}
+.list-product-hightline ul li.list-item .info-product a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.list-product-hightline ul li.list-item .info-product .name-product a{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -moz-line-clamp: 1;
+    -o-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -o-box-orient: vertical;
+    max-height: 100%;
+    overflow: hidden;
+}
+ul li.list-item .info-product .price-product{
+    display: flex;
+    margin:8px 0px;
+}
+ul li.list-item .info-product .price-product .product-new span{
+    color: red;
+    padding-right: 15px;
+    
+}
+ul li.list-item .info-product .price-product .product-old span{
+    color: gray;
+    text-decoration: line-through;
+    font-size: 11px;
+}
+ul li.list-item .info-product .buy-now{
+    text-transform: uppercase;
+}
+.wp-filter p.desc{
+    right: 0px;
+    top: 0px;
+    color: #6b6161;
+}
+.wp-filter form.filter{
+    right: 0px;
+    top: 30px;
+}
+.wp-filter form.filter #select{
+    padding: 5px 10px;
+    border: none;
+    background: rgb(231, 230, 230);
+
+}
+.wp-filter form.filter .btn-select{
+    padding: 5px 15px;
+    background:#b6b3b3;
+}
+
+/* ================== SECTION-DETAIL ==================== */
+/* #section-detail{
+    margin-top: 80px;
+} */
+#section-detail h5{
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+
+#section-detail ul.list-product-sidebar a.name-product{
+    text-decoration: none!important;
+    color:black;
+    font-weight: 600;
+    font-size: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -moz-line-clamp: 1;
+    -o-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -o-box-orient: vertical;
+    max-height: 100%;
+    overflow: hidden;
+
+}
+#section-detail ul.list-product-sidebar li.list-item a img{
+    transition: all 0.6s ease-in-out;
+}
+#section-detail ul.list-product-sidebar a:hover img{
+    background: #f2f2f2;
+    transform: scale(1.1,1.1);
+    opacity: 0.7;
+}
+#section-detail ul.list-product-sidebar .price-product{
+    padding-top: 3px;
+}
+#section-detail ul.list-product-sidebar .price-product .price-new{
+    font-size: 15px;
+    color:red;
+    padding-right: 28px;
+}
+#section-detail ul.list-product-sidebar .price-product .price-old{
+    font-size: 13px;
+    color:rgb(114, 111, 111);
+    text-decoration:line-through;
+}
+#section-detail ul.list-product-sidebar .action{
+    font-size: 12px;
+    text-decoration: none;
+    display:flex;
+    margin-top: 15px;
+}
+#section-detail ul.list-product-sidebar .action .add-cart{
+    margin-right: 23px;
+}
+#section-detail ul.list-product-sidebar .action .add-cart a{
+    padding: 3px 10px;
+    font-size: 11px;
+    color: #333;
+    border: 1px solid rgb(117, 117, 117);
+    text-decoration: none;
+}
+#section-detail ul.list-product-sidebar .action .add-cart a:hover{
+    background-color: rgb(117, 117, 117);
+    color: white;
+}
+#section-detail ul.list-product-sidebar .action .buy-now a{
+    padding: 3px 10px;
+    font-size: 11px;
+    color: red;
+    border: 1px solid red;
+    text-decoration: none;
+}
+#section-detail ul.list-product-sidebar .action .buy-now a:hover{
+    background-color: rgb(238, 15, 15);
+    color: white;
+}
